@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Gunmetal Regular";
+    src: url(fonts/Gunmetal-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Carbon";
+    src: url(fonts/carbon.ttf);
+}
+
+@font-face {
+    font-family: "Trashedlight Regular";
+    src: url(fonts/Trashedlight-Regular.ttf);
+}
+
+@font-face {
+    font-family: "plaintext";
+    src: url(fonts/under-the-influence.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+div.global {
+    width: 600px;
+    margin: auto;
+    padding: 12px;
+    background-color: #080908;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gunmetal Regular", cursive;
+    font-size: 50px;
+    color: #400;
+    text-shadow: 0 0 0.5em #68a;
+    margin-bottom: 8px;
+}
+
+p.plaintext {
+    font-family: "plaintext";
+/*    font-size: 24px;*/
+}
+
+div.content {
+    font-family: "Carbon", Georgia, "Times New Roman", serif;
+    color: #777;
+    border-radius: 1em;
+    border-top: 1px solid #00c;
+    border-bottom: 1px solid #00c;
+}
+
+div.content p:first-of-type {
+    font-family: "Trashedlight Regular", Calibri, Arial, sans-serif;
+    font-size: 22px;
+    color: #822;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #22a;
+}
+
+div.content p:last-of-type {
+    text-align: right;
+    font-family: "Trashedlight Regular", Calibri, Arial, sans-serif;
+    font-size: 22px;
+    color: #822;
+}
+
+#satan:hover {
+    color: black;
+    text-shadow: 0 0 1em red;
+}
+
+table {
+    margin-left: 2em;
+}
+
+td:last-child {
+    padding-left: 1em;
+}
+
+#copyright {
+    font-family: Serif;
+    font-style: bold;
+}
+
+p.copy {
+    font-family: "Carbon", Georgia, Serif;
+    color: black;
+    text-shadow: 0 0 1em #ff4444;
+}
+
