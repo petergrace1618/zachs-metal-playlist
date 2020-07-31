@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Gunmetal Regular";
-    src: url(fonts/Gunmetal-Regular.ttf);
+    src: url("fonts/Gunmetal-Regular.ttf");
 }
 
 @font-face {
     font-family: "Carbon";
-    src: url(fonts/carbon.ttf);
+    src: url("fonts/carbon.ttf");
 }
 
 @font-face {
     font-family: "Trashedlight Regular";
-    src: url(fonts/Trashedlight-Regular.ttf);
+    src: url("fonts/Trashedlight-Regular.ttf");
 }
 
 @font-face {
     font-family: "plaintext";
-    src: url(fonts/under-the-influence.ttf);
+    src: url("fonts/under-the-influence.ttf");
 }
 
 body {
